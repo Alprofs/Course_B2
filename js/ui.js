@@ -126,7 +126,7 @@ const UI = {
                     if (block.type === 'note') {
                         html += `<div class="orange-note-box"><div class="orange-note-title">💡 Note</div><p>${txt}</p></div>`;
                     } else if (block.type === 'rule') {
-                        html += `<div class="law-box"><div class="law-title">📐 Grammar Rule: ${block.title || ''}</div><p>${txt}</p></div>`;
+                        html += `<div class="law-box"><div class="law-title">✏️ ${block.title || ''}</div><p>${txt}</p></div>`;
                     } else if (block.type === 'example') {
                         html += `<div class="example-box"><div class="example-title">🗣️ Examples</div><p>${txt}</p></div>`;
                     } else if (block.type === 'mistake') {
